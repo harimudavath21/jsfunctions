@@ -25,3 +25,24 @@ function mul(num6,num7){
 function divide(num8,num9){
     console.log(num8/num9)
 }divide(17,1)
+
+function add(num10,num11){
+    console.log(num10+num11)
+}add(18,19)
+
+function subtraction(num12,num13){
+    console.log(num12-num13)
+}subtraction(17,1)
+
+
+let fname = "hari";
+let age = 21;
+function sayName(){
+    console.log(" my name is " + fname + " age is " + age)
+    console.log(' my name is ' + fname + ' age is '+age)
+    console.log(`my name is ${fname} age is ${age}`)
+    //double(//)
+    //single(/)
+    // (``)template literal introduced in es6 after 2015
+}sayName()
+
